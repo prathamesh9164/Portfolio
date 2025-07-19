@@ -31,11 +31,11 @@ export const skills = [
         image:
           "https://d33wubrfki0l68.cloudfront.net/0834d0215db51e91525a25acf97433051f280f2f/c30f5/img/redux.svg",
       },
-      {
-        name: "Next Js",
-        image:
-          "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAACTklEQVR4Ab1XAaQqURB9DyohSykREpRIQSAlBCoECKUFCSRCBBEAaSEABQEoCIEASCwAUICALgCo83do0//9v819XX845O7VnDkzOzP7JWGaBd3C3IJpQVjAHeJ+Rs9a97vKLGrBsB1KgMhEP3FMUUwt4ENMfxr1yQIU4SSjRkbeOZtERmHk6pXQVDlnkHh9S+QLTm1hkiz4n/gzFQuny9FoFLquE+i34x+n02k0m00UCoV3BIzn3MMJrVYLtp1OJ0cS/X4f5/MZhmG8IyDsWtDfEaDIn2232/3zbrvdxuFwwGg04qRBt+VnETBNE0IIkE2n07/erdfrWK/X6Ha73Hb9ZXII3G43ivy3dNRqtZe7lUoFs9mM6oBDwCQCgquALT1FT3a5XF7qIZ/PYzgcolqtcggIIgBZAgRKB6lCRalp2uM8k8mAVMrlchwC+DEBipycE4n5fP44j8ViKJVKSCaTbAJCpgaez4vFIsjoWa/XA50FAgEkEgmEw2F2CkxZBZ5Br5tt1ITcbjd8Ph88Hg+7CBefECCsVitS4aVJcV9D/VMCVITk/Hq9YrPZyBBo2a1YMGvAcQYcj0cCtWMugcdYNhjDiBrP25mx3++x3W6RzWZZ8isfxzQLlsslJpMJpYY5jhkqcOH1ejEYDDAej9FoNOByuZxGsfqVzC7KTqcDSkkqleKsZOqX0mAwiHK5DGrJfr+fs5SqX8sjkQji8ThCoRC+v78Za7l6JagrUh3YkUuZpqgwDaecc9VYSDoV5Fg+at7n+eLN57kuE/EvzHr/Kvs31aYAAAAASUVORK5CYII=",
-      },
+      // {
+      //   name: "Next Js",
+      //   image:
+      //     "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAACTklEQVR4Ab1XAaQqURB9DyohSykREpRIQSAlBCoECKUFCSRCBBEAaSEABQEoCIEASCwAUICALgCo83do0//9v819XX845O7VnDkzOzP7JWGaBd3C3IJpQVjAHeJ+Rs9a97vKLGrBsB1KgMhEP3FMUUwt4ENMfxr1yQIU4SSjRkbeOZtERmHk6pXQVDlnkHh9S+QLTm1hkiz4n/gzFQuny9FoFLquE+i34x+n02k0m00UCoV3BIzn3MMJrVYLtp1OJ0cS/X4f5/MZhmG8IyDsWtDfEaDIn2232/3zbrvdxuFwwGg04qRBt+VnETBNE0IIkE2n07/erdfrWK/X6Ha73Hb9ZXII3G43ivy3dNRqtZe7lUoFs9mM6oBDwCQCgquALT1FT3a5XF7qIZ/PYzgcolqtcggIIgBZAgRKB6lCRalp2uM8k8mAVMrlchwC+DEBipycE4n5fP44j8ViKJVKSCaTbAJCpgaez4vFIsjoWa/XA50FAgEkEgmEw2F2CkxZBZ5Br5tt1ITcbjd8Ph88Hg+7CBefECCsVitS4aVJcV9D/VMCVITk/Hq9YrPZyBBo2a1YMGvAcQYcj0cCtWMugcdYNhjDiBrP25mx3++x3W6RzWZZ8isfxzQLlsslJpMJpYY5jhkqcOH1ejEYDDAej9FoNOByuZxGsfqVzC7KTqcDSkkqleKsZOqX0mAwiHK5DGrJfr+fs5SqX8sjkQji8ThCoRC+v78Za7l6JagrUh3YkUuZpqgwDaecc9VYSDoV5Fg+at7n+eLN57kuE/EvzHr/Kvs31aYAAAAASUVORK5CYII=",
+      // },
       {
         name: "HTML",
         image: "https://www.w3.org/html/logo/badge/html5-badge-h-solo.png",
@@ -102,30 +102,34 @@ export const skills = [
         image:
           "https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original-wordmark.svg",
       },
-      // {
-      //   name: "Firebase",
-      //   image: "https://www.vectorlogo.zone/logos/firebase/firebase-icon.svg",
-      // },
+      {
+        name: "Numpy",
+        image: "https://www.vectorlogo.zone/logos/numpy/numpy-icon.svg",
+      },
+      {
+        name: "Pandas",
+        image: "https://www.vectorlogo.zone/logos/usepanda/usepanda-icon.svg",
+      },
     ],
   },
   {
-    title: "Android",
+    title: "Visualization",
     skills: [
       {
-        name: "Java",
+        name: "MatPlotLib",
         image:
-          "https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg",
+          "https://raw.githubusercontent.com/gilbarbara/logos/92bb74e98bca1ea1ad794442676ebc4e75038adc/logos/matplotlib-icon.svg",
       },
-      // {
-      //   name: "Kotlin",
-      //   image:
-      //     "https://www.vectorlogo.zone/logos/kotlinlang/kotlinlang-icon.svg",
-      // },
-      // {
-      //   name: "XML",
-      //   image:
-      //     "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSBMw6_RdwKQ9bDFfnKDX1iwMl4bVJEvd9PP53XuIw&s",
-      // },
+      {
+        name: "Power BI",
+        image:
+          "https://raw.githubusercontent.com/homarr-labs/dashboard-icons/f222c55843b888a82e9f2fe2697365841cbe6025/svg/powerbi.svg",
+      },
+      {
+        name: "MS Excel",
+        image:
+          "https://static.vecteezy.com/system/resources/previews/017/396/828/original/microsoft-excel-mobile-apps-logo-free-png.png",
+      },
       // {
       //   name: "Android Studio",
       //   image:
@@ -181,27 +185,27 @@ export const skills = [
 ];
 
 export const experiences = [
-  {
-    id: 0,
-    img: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/flipr.jpeg?alt=media&token=1d72532a-45eb-4c1a-a81a-c9bed9fec543",
-    role: "DevOps & Fullstack Engineering Intern",
-    company: "Flipr Inovations Pvt. Ltd.",
-    date: "Aug 2023 - July 2023",
-    desc: "Working on Flipr Platforms, managing DevOps, and streamlining the process with automation.",
-    skills: [
-      "Docker",
-      "Terraform",
-      "AWS",
-      "EC2",
-      "Portainer",
-      "Nginx",
-      "JavaScript",
-      "TypeScript",
-      "Node Js",
-      " Next Js",
-    ],
-    doc: "https://media.licdn.com/dms/image/D4D2DAQFlp60ZqHuaFQ/profile-treasury-image-shrink_1280_1280/0/1691180828512?e=1692381600&v=beta&t=mM5Y_NE5EPlQhez5FAN6NLVSKcO_Ojt_9Gq3mnFGkAQ",
-  },
+  // {
+  //   id: 0,
+  //   img: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/flipr.jpeg?alt=media&token=1d72532a-45eb-4c1a-a81a-c9bed9fec543",
+  //   role: "DevOps & Fullstack Engineering Intern",
+  //   company: "Flipr Inovations Pvt. Ltd.",
+  //   date: "Aug 2023 - July 2023",
+  //   desc: "Working on Flipr Platforms, managing DevOps, and streamlining the process with automation.",
+  //   skills: [
+  //     "Docker",
+  //     "Terraform",
+  //     "AWS",
+  //     "EC2",
+  //     "Portainer",
+  //     "Nginx",
+  //     "JavaScript",
+  //     "TypeScript",
+  //     "Node Js",
+  //     " Next Js",
+  //   ],
+  //   doc: "https://media.licdn.com/dms/image/D4D2DAQFlp60ZqHuaFQ/profile-treasury-image-shrink_1280_1280/0/1691180828512?e=1692381600&v=beta&t=mM5Y_NE5EPlQhez5FAN6NLVSKcO_Ojt_9Gq3mnFGkAQ",
+  // },
   // {
   //   id: 0,
   //   img: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/neurobit.jpeg?alt=media&token=1cacbb7b-e5ea-4efb-9b3d-f5a31b9564ad",
