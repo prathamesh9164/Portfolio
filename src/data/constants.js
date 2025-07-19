@@ -1,16 +1,16 @@
 export const Bio = {
   name: "Prathamesh Talele",
   roles: [
-    "Full Stack Developer",
-    "MERN Stack Developer",
-    "Front-End Developer",
-    "Programmer",
+    "Data Analyst",
+    "Data Scientist",
+    "AI Enthusiast",
+    "ML Engineer"
   ],
   description:
     "I am a motivated and versatile individual, always eager to take on new challenges. With a passion for learning I am dedicated to delivering high-quality results. With a positive attitude and a growth mindset, I am ready to make a meaningful contribution and achieve great things.",
   github: "https://github.com/prathamesh9164",
   resume:
-    "https://drive.google.com/file/d/1wo9GlDqNi0dCANEUoZn9LAKCIYAEmKbT/view?usp=drive_link",
+    "https://drive.google.com/file/d/1CKJIRou1IyqxIocaSyHC4-BPLtQbhHxm/view?usp=drive_link",
   linkedin: "https://www.linkedin.com/in/prathamesh-talele-8a60a922b/",
   twitter: "https://x.com/Prathamesh1256?t=UCBTLuGOySf4O360ERzSsA&s=09",
   insta: "https://www.instagram.com/prathamesh_talele45?igsh=MThuc2l4YWV5bGI3aw==",
