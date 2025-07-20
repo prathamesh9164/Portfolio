@@ -1,6 +1,8 @@
 export const Bio = {
   name: "Prathamesh Talele",
   roles: [
+    "MERN Stack Developer",
+    "Web Developer",
     "Data Analyst",
     "Data Scientist",
     "AI Enthusiast",
