@@ -1,12 +1,11 @@
 export const Bio = {
   name: "Prathamesh Talele",
   roles: [
-    "MERN Stack Developer",
-    "Web Developer",
-    "Data Analyst",
-    "Data Scientist",
+    "Data Science Enthusiast",
     "AI Enthusiast",
-    "ML Engineer"
+    "ML Engineer",
+    "Data Analyst",
+    "MERN Stack Developer"
   ],
   description:
     "I am a motivated and versatile individual, always eager to take on new challenges. With a passion for learning I am dedicated to delivering high-quality results. With a positive attitude and a growth mindset, I am ready to make a meaningful contribution and achieve great things.",
@@ -190,9 +189,9 @@ export const experiences = [
   // {
   //   id: 0,
   //   img: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/flipr.jpeg?alt=media&token=1d72532a-45eb-4c1a-a81a-c9bed9fec543",
-  //   role: "DevOps & Fullstack Engineering Intern",
-  //   company: "Flipr Inovations Pvt. Ltd.",
-  //   date: "Aug 2023 - July 2023",
+  //   role: "Python Developer Intern",
+  //   company: "BitFlyer Technologies Pvt Ltd",
+  //   date: "Jun 2025 - July 2025",
   //   desc: "Working on Flipr Platforms, managing DevOps, and streamlining the process with automation.",
   //   skills: [
   //     "Docker",
