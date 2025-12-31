@@ -223,33 +223,6 @@ export const projects = [
     webapp: "https://my-notes-8jqzz2we1-prathamesh-taleles-projects.vercel.app",
   },
   // {
-  //   id: 0,
-  //   title: "textUtils",
-  //   date: "Nov 2023 - Jan 2024",
-  //   description:
-  //     "A Web Application made to make the work easier for typing blogs or any other documents as this app can handle the sentences to be converted into lowercase , Uppercase , can remove extra spaces in between and many more.",
-  //   image:
-  //     "https://github.com/prathamesh9164/Prathamesh-Images/blob/main/textutils.png?raw=true",
-  //   tags: ["React Js"],
-  //   category: "web app",
-  //   github: "https://github.com/prathamesh9164/textutils",
-  //   webapp: "https://prathamesh9164.github.io/textutils/",
-  //   // member: [
-  //   //   {
-  //   //     name: "Prathamesh Talele",
-  //   //     img: "https://avatars.githubusercontent.com/u/64485885?v=4",
-  //   //     linkedin: "https://www.linkedin.com/in/prathamesh-talele-b89a791b3/",
-  //   //     github: "https://github.com/prathamesh9164/",
-  //   //   },
-  //   //   {
-  //   //     name: "Upasana Chaudhari",
-  //   //     img: "https://avatars.githubusercontent.com/u/100614635?v=4",
-  //   //     linkedin: "https://www.linkedin.com/in/upasana-chaudhuri-2a2bb5231/",
-  //   //     github: "https://github.com/upasana0710",
-  //   //   },
-  //   // ],
-  // },
-  // {
   //   id: 1,
   //   title: "NewsTime",
   //   date: "May 2024 - Aug 2024",
