@@ -116,6 +116,9 @@ const SkillItem = styled.div`
 const SkillImage = styled.img`
   width: 24px;
   height: 24px;
+  background-color: #fff;
+  border-radius: 4px;
+  padding: 2px;
 `
 
 

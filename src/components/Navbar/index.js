@@ -14,11 +14,11 @@ import {
 } from "./NavbarStyledComponent";
 import { DiCssdeck } from "react-icons/di";
 import { FaBars } from "react-icons/fa";
+import { FaSun, FaMoon } from "react-icons/fa";
 import { Bio } from "../../data/constants";
-// import { Close, CloseRounded } from '@mui/icons-material';
 import { useTheme } from "styled-components";
 
-const Navbar = () => {
+const Navbar = ({ darkMode, setDarkMode }) => {
   const [isOpen, setIsOpen] = React.useState(false);
   const theme = useTheme();
   return (
@@ -47,11 +47,33 @@ const Navbar = () => {
         <NavItems>
           <NavLink href="#about">About</NavLink>
           <NavLink href="#skills">Skills</NavLink>
-          {/* <NavLink href="#experience">Experience</NavLink> */}
+          <NavLink href="#experience">Experience</NavLink>
           <NavLink href="#projects">Projects</NavLink>
           <NavLink href="#education">Education</NavLink>
         </NavItems>
         <ButtonContainer>
+          <button
+            onClick={() => setDarkMode(!darkMode)}
+            style={{
+              background: "transparent",
+              border: "1px solid",
+              borderColor: darkMode ? "#854CE6" : "#aaa",
+              borderRadius: "50%",
+              width: "36px",
+              height: "36px",
+              display: "flex",
+              alignItems: "center",
+              justifyContent: "center",
+              cursor: "pointer",
+              color: darkMode ? "#854CE6" : "#555",
+              fontSize: "16px",
+              marginRight: "12px",
+              transition: "all 0.3s ease",
+            }}
+            title={darkMode ? "Switch to Light Mode" : "Switch to Dark Mode"}
+          >
+            {darkMode ? <FaSun /> : <FaMoon />}
+          </button>
           <GitHubButton href={Bio.github} target="_blank">
             Github Profile
           </GitHubButton>

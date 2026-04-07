@@ -5,16 +5,17 @@ export const Bio = {
     "AI Enthusiast",
     "ML Engineer",
     "Data Analyst",
-    "MERN Stack Developer"
+    "MERN Stack Developer",
   ],
   description:
-    "I am a motivated and versatile individual, always eager to take on new challenges. With a passion for learning I am dedicated to delivering high-quality results. With a positive attitude and a growth mindset, I am ready to make a meaningful contribution and achieve great things.",
+    "I am a motivated and versatile individual, always eager to take on new challenges.With a passion for learning I am dedicated to delivering high-quality results. With a positive attitude and a growth mindset, I am ready to make a meaningful contribution and achieve great things.",
   github: "https://github.com/prathamesh9164",
   resume:
     "https://drive.google.com/file/d/1enPEG0ozu-hrW3fHbUA1MaIeiTPB_LQU/view?usp=drive_link",
   linkedin: "https://www.linkedin.com/in/prathamesh-talele-8a60a922b/",
   twitter: "https://x.com/Prathamesh1256?t=UCBTLuGOySf4O360ERzSsA&s=09",
-  insta: "https://www.instagram.com/prathamesh_talele45?igsh=MThuc2l4YWV5bGI3aw==",
+  insta:
+    "https://www.instagram.com/prathamesh_talele45?igsh=MThuc2l4YWV5bGI3aw==",
   facebook: "https://www.facebook.com/share/1AjC3TN3Jt/",
 };
 
@@ -116,12 +117,12 @@ export const skills = [
       {
         name: "Git",
         image:
-          "https://camo.githubusercontent.com/fbfcb9e3dc648adc93bef37c718db16c52f617ad055a26de6dc3c21865c3321d/68747470733a2f2f7777772e766563746f726c6f676f2e7a6f6e652f6c6f676f732f6769742d73636d2f6769742d73636d2d69636f6e2e737667",
+          "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg",
       },
       {
         name: "GitHub",
         image:
-          "https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png",
+          "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg",
       },
       {
         name: "Docker",
@@ -143,33 +144,29 @@ export const skills = [
 ];
 
 export const experiences = [
-  // {
-  //   id: 0,
-  //   img: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/flipr.jpeg?alt=media&token=1d72532a-45eb-4c1a-a81a-c9bed9fec543",
-  //   role: "Python Developer Intern",
-  //   company: "BitFlyer Technologies Pvt Ltd",
-  //   date: "Jun 2025 - July 2025",
-  //   desc: "Working on Flipr Platforms, managing DevOps, and streamlining the process with automation.",
-  //   skills: [
-  //     "Docker",
-  //     "Terraform",
-  //     "AWS",
-  //     "EC2",
-  //     "Portainer",
-  //     "Nginx",
-  //     "JavaScript",
-  //     "TypeScript",
-  //     "Node Js",
-  //     " Next Js",
-  //   ],
-  //   doc: "https://media.licdn.com/dms/image/D4D2DAQFlp60ZqHuaFQ/profile-treasury-image-shrink_1280_1280/0/1691180828512?e=1692381600&v=beta&t=mM5Y_NE5EPlQhez5FAN6NLVSKcO_Ojt_9Gq3mnFGkAQ",
-  // },
+  {
+    id: 0,
+    img: "https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg",
+    role: "AI/ML Project Developer",
+    company: "ACCIDETECT — Accident Detection System",
+    date: "Jan 2025 - Present",
+    desc: "Developed ACCIDETECT 3, an AI-powered road accident detection and alert system. Built a real-time pipeline using YOLOv8 for vehicle crash detection from CCTV footage, integrated an alert mechanism to notify authorities, and created a full-stack web dashboard (React + Node.js + MongoDB) for live monitoring and incident management.",
+    skills: [
+      "Python",
+      "YOLOv8",
+      "OpenCV",
+      "React Js",
+      "Node Js",
+      "MongoDB",
+      "Express Js",
+    ],
+  },
 ];
 
 export const education = [
   {
     id: 0,
-    img: "https://www.static-contents.youth4work.com/university/Documents/Colleges/collegeLogo/5360.jpg",
+    img: "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e4/College_Icon.svg/1024px-College_Icon.svg.png",
     school: "Godavari College of Engineering",
     date: "Oct 2022 - Sep 2026",
     grade: "7.3 CGPA",
@@ -178,7 +175,7 @@ export const education = [
   },
   {
     id: 1,
-    img: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/methodist.png?alt=media&token=018a1b18-e2dd-4f34-8855-cff1b6b69fd3",
+    img: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/High_School_Icon.svg/1024px-High_School_Icon.svg.png",
     school: "Jagjivandas English School and Junior College, Muktainagar",
     date: "March 2021 - March 2022",
     grade: "80 %",
@@ -187,7 +184,7 @@ export const education = [
   },
   {
     id: 2,
-    img: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/methodist.png?alt=media&token=018a1b18-e2dd-4f34-8855-cff1b6b69fd3",
+    img: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/High_School_Icon.svg/1024px-High_School_Icon.svg.png",
     school: "Jagjivandas English School, Muktainagar",
     date: "March 2019 - March 2020",
     grade: "89 %",
@@ -198,30 +195,49 @@ export const education = [
 
 export const projects = [
   {
-    id: 9,
-    title: "My Notes",
-    date: "Jan 2025 - Mar 2025",
+    id: 10,
+    title: "ACCIDETECT 3",
+    date: "Jan 2025 - Present",
     description:
-      "My Notes is a web application developed by me to store the notes of user by securely logging in. This web app ccan also convert files into different formats using a file converter tool added in it.",
+      "ACCIDETECT is an AI-powered road accident detection and real-time alert system. It uses YOLOv8 to detect vehicle crashes from CCTV footage and instantly notifies authorities via a full-stack web dashboard with live monitoring and incident management.",
     image:
       "https://github.com/prathamesh9164/Prathamesh-Images/blob/main/notes.png?raw=true",
     tags: [
+      "Python",
+      "YOLOv8",
+      "OpenCV",
+      "React Js",
+      "Node Js",
+    ],
+    category: "machine learning",
+    github: "https://github.com/prathamesh9164",
+    webapp: "",
+  },
+  //{
+    //id: 9,
+    //title: "My Notes",
+    //date: "Jan 2025 - Mar 2025",
+    //description:
+      //"My Notes is a web application developed by me to store the notes of user by securely logging in. This web app can also convert files into different formats using a file converter tool added in it.",
+    //image:
+      //"https://github.com/prathamesh9164/Prathamesh-Images/blob/main/notes.png?raw=true",
+    //tags: [
       // "Docker",
       // "AWS",
       // "DuckDNS",
       // "Eslint",
       // "Husky",
       // "CI/CD",
-      "React Js",
-      "MongoDb",
-      "Node Js",
-      "Express Js",
-      "Redux",
-    ],
-    category: "web app",
-    github: "https://github.com/prathamesh9164/My-Notes",
-    webapp: "https://my-notes-8jqzz2we1-prathamesh-taleles-projects.vercel.app",
-  },
+      //"React Js",
+      //"MongoDb",
+      //"Node Js",
+      //"Express Js",
+      //"Redux",
+    //],
+    //category: "web app",
+    //github: "https://github.com/prathamesh9164/My-Notes",
+    //webapp: "https://my-notes-8jqzz2we1-prathamesh-taleles-projects.vercel.app",
+  //},
   // {
   //   id: 1,
   //   title: "NewsTime",
@@ -250,7 +266,7 @@ export const projects = [
       "This is my own portfolio website to present all my skills , projects , work experiences to all. ",
     image:
       "https://github.com/prathamesh9164/Prathamesh-Images/blob/main/Screenshot%202025-06-02%20142631.png?raw=true",
-    tags: ["React.js","Tailwind CSS","JavaScript"],
+    tags: ["React.js", "Tailwind CSS", "JavaScript"],
     category: "web app",
     github: "https://github.com/prathamesh9164/Portfolio",
     webapp: "https://prathamesh-talele.netlify.app/",
