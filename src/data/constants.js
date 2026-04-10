@@ -1,3 +1,5 @@
+import AccidetectImg from "../images/Picture1.jpg";
+
 export const Bio = {
   name: "Prathamesh Talele",
   roles: [
@@ -200,8 +202,7 @@ export const projects = [
     date: "Jan 2025 - Present",
     description:
       "ACCIDETECT is an AI-powered road accident detection and real-time alert system. It uses YOLOv8 to detect vehicle crashes from CCTV footage and instantly notifies authorities via a full-stack web dashboard with live monitoring and incident management.",
-    image:
-      "https://github.com/prathamesh9164/Prathamesh-Images/blob/main/notes.png?raw=true",
+    image: AccidetectImg,
     tags: [
       "Python",
       "YOLOv8",
