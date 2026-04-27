@@ -41,8 +41,11 @@ export const NavLogo = styled(LinkR)`
 export const Span = styled.div`
     padding: 0 4px;
     font-weight: bold;
-    font-size: 18px;
+    font-size: 24px;
+    font-family: 'Dancing Script', cursive;
+    color: ${({ theme }) => theme.primary};
 `;
+
 export const NavItems = styled.ul`
     width: 100%;
     display: flex;
