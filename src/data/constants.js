@@ -10,7 +10,7 @@ export const Bio = {
     "MERN Stack Developer",
   ],
   description:
-    "I am a motivated and versatile individual, always eager to take on new challenges.With a passion for learning I am dedicated to delivering high-quality results. With a positive attitude and a growth mindset, I am ready to make a meaningful contribution and achieve great things.",
+    "I am a motivated and versatile individual, always eager to take on new challenges. With a passion for learning, I am dedicated to delivering high-quality results. With a positive attitude and a growth mindset, I am ready to make a meaningful contribution and achieve great things.",
   github: "https://github.com/prathamesh9164",
   resume:
     "https://drive.google.com/file/d/1enPEG0ozu-hrW3fHbUA1MaIeiTPB_LQU/view?usp=drive_link",
@@ -172,7 +172,7 @@ export const education = [
     school: "Godavari College of Engineering",
     date: "Oct 2022 - Sep 2026",
     grade: "7.3 CGPA",
-    desc: "I am currently pursuing a Bachelor's degree in Computer Engineering at Godavari College of Engineering. I have completed 6 semesters and have a CGPA of 7.2. I have taken courses in Data Structures, Algorithms, Object-Oriented Programming, Database Management Systems, Operating Systems, and Computer Networks, among others. I am also a member of the Coding Club at Godavari College of Engineering , Where we solve problems regarding to the codes developed by the students.",
+    desc: "I am currently pursuing a Bachelor's degree in Computer Engineering at Godavari College of Engineering. I have completed 6 semesters and have a CGPA of 7.3. I have taken courses in Data Structures, Algorithms, Object-Oriented Programming, Database Management Systems, Operating Systems, and Computer Networks, among others. I am also a member of the Coding Club at Godavari College of Engineering, where we solve problems and collaborate on student-developed projects.",
     degree: "Bachelor of Technology - BTech, Computer Engineering",
   },
   {
@@ -262,7 +262,7 @@ export const projects = [
   {
     id: 3,
     title: "Portfolio",
-    date: "Feb 2025 - may 2025",
+    date: "Feb 2025 - Present",
     description:
       "This is my own portfolio website to present all my skills , projects , work experiences to all. ",
     image:
@@ -282,4 +282,4 @@ export const projects = [
 //   { year: 2021, text: "Started my own platform" },
 // ];
 
-// Minor update
+// Updated: Fixed CGPA description, corrected portfolio date, polished bio text
