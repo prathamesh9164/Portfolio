@@ -151,7 +151,7 @@ export const experiences = [
     img: "https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg",
     role: "AI/ML Project Developer",
     company: "ACCIDETECT — Accident Detection System",
-    date: "Jan 2025 - Present",
+    date: "Jan 2025 - May 2025",
     desc: "Developed ACCIDETECT 3, an AI-powered road accident detection and alert system. Built a real-time pipeline using YOLOv8 for vehicle crash detection from CCTV footage, integrated an alert mechanism to notify authorities, and created a full-stack web dashboard (React + Node.js + MongoDB) for live monitoring and incident management.",
     skills: [
       "Python",
@@ -170,9 +170,9 @@ export const education = [
     id: 0,
     img: "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e4/College_Icon.svg/1024px-College_Icon.svg.png",
     school: "Godavari College of Engineering",
-    date: "Oct 2022 - Sep 2026",
+    date: "Oct 2022 - Jun 2026",
     grade: "7.3 CGPA",
-    desc: "I am currently pursuing a Bachelor's degree in Computer Engineering at Godavari College of Engineering. I have completed 6 semesters and have a CGPA of 7.3. I have taken courses in Data Structures, Algorithms, Object-Oriented Programming, Database Management Systems, Operating Systems, and Computer Networks, among others. I am also a member of the Coding Club at Godavari College of Engineering, where we solve problems and collaborate on student-developed projects.",
+    desc: "I completed my Bachelor's degree in Computer Engineering at Godavari College of Engineering with a CGPA of 7.3. I studied Data Structures, Algorithms, Object-Oriented Programming, Database Management Systems, Operating Systems, and Computer Networks, among others. I was also a member of the Coding Club at Godavari College of Engineering, where we solved problems and collaborated on student-developed projects.",
     degree: "Bachelor of Technology - BTech, Computer Engineering",
   },
   {
@@ -199,7 +199,7 @@ export const projects = [
   {
     id: 10,
     title: "ACCIDETECT 3",
-    date: "Jan 2025 - Present",
+    date: "Jan 2025 - May 2025",
     description:
       "ACCIDETECT is an AI-powered road accident detection and real-time alert system. It uses YOLOv8 to detect vehicle crashes from CCTV footage and instantly notifies authorities via a full-stack web dashboard with live monitoring and incident management.",
     image: AccidetectImg,
@@ -211,54 +211,87 @@ export const projects = [
       "Node Js",
     ],
     category: "machine learning",
-    github: "https://github.com/prathamesh9164",
+    github: "https://github.com/prathamesh9164/AcciDetect---Accident-Prediction-Detection",
     webapp: "",
   },
-  //{
-    //id: 9,
-    //title: "My Notes",
-    //date: "Jan 2025 - Mar 2025",
-    //description:
-      //"My Notes is a web application developed by me to store the notes of user by securely logging in. This web app can also convert files into different formats using a file converter tool added in it.",
-    //image:
-      //"https://github.com/prathamesh9164/Prathamesh-Images/blob/main/notes.png?raw=true",
-    //tags: [
-      // "Docker",
-      // "AWS",
-      // "DuckDNS",
-      // "Eslint",
-      // "Husky",
-      // "CI/CD",
-      //"React Js",
-      //"MongoDb",
-      //"Node Js",
-      //"Express Js",
-      //"Redux",
-    //],
-    //category: "web app",
-    //github: "https://github.com/prathamesh9164/My-Notes",
-    //webapp: "https://my-notes-8jqzz2we1-prathamesh-taleles-projects.vercel.app",
-  //},
-  // {
-  //   id: 1,
-  //   title: "NewsTime",
-  //   date: "May 2024 - Aug 2024",
-  //   description:
-  //     "This is the first Web App I made using an API and it was awesome building this useful web app using newsAPI and React.js. While building this web app got lots of problems but finally it succeed.This app provides News on the basis of category we select.",
-  //   image:
-  //     "https://github.com/prathamesh9164/Prathamesh-Images/blob/main/newstime.png?raw=true",
-  //   tags: [
-  //     "React Js",
-  //     "NewsAPI",
-  //     // "Node Js",
-  //     // "Express Js",
-  //     // "Redux",
-  //     // "NodeMailer",
-  //   ],
-  //   category: "web app",
-  //   github: "https://github.com/prathamesh9164/NewsTime",
-  //   // webapp: "https://vexa-app.netlify.app/",
-  // },
+  {
+    id: 11,
+    title: "Smart AI Resume Analyzer",
+    date: "May 2025 - Jun 2025",
+    description:
+      "An intelligent AI-powered resume analysis tool that helps job seekers optimize their resumes. Features include ATS compatibility scoring, keyword gap analysis, role-specific feedback, skills gap breakdown, and an AI-powered resume builder with 4 unique templates. Built with Streamlit and integrates Groq AI for deep analysis.",
+    image:
+      "https://socialify.git.ci/prathamesh9164/Smart-AI-Resume-Analyzer/image?description=1&font=Bitter&language=1&name=1&pattern=Circuit+Board&stargazers=1&theme=Dark&pattern=Transparent",
+    tags: [
+      "Python",
+      "Streamlit",
+      "Groq AI",
+      "spaCy",
+      "NLP",
+      "scikit-learn",
+    ],
+    category: "machine learning",
+    github: "https://github.com/prathamesh9164/Smart-AI-Resume-Analyzer",
+    webapp: "https://smart-ai-resume-analyzer-m.streamlit.app/",
+  },
+  {
+    id: 12,
+    title: "BikeWale Motorcycle EDA",
+    date: "Jun 2025",
+    description:
+      "An end-to-end data science pipeline — 418 motorcycles scraped live from BikeWale.com, cleaned, engineered, and analysed through 50+ interactive visualisations. Features web scraping with BeautifulSoup, comprehensive EDA with Pandas, and a fully custom interactive web dashboard built from scratch with Chart.js.",
+    image:
+      "https://raw.githubusercontent.com/prathamesh9164/Prathamesh-Images/main/bikewale.png",
+    tags: [
+      "Python",
+      "BeautifulSoup",
+      "Pandas",
+      "Plotly",
+      "Chart.js",
+      "HTML/CSS/JS",
+    ],
+    category: "machine learning",
+    github: "https://github.com/prathamesh9164/BikeWale-Scraping-EDA",
+    webapp: "https://bike-wale-scraping-eda.vercel.app",
+  },
+  {
+    id: 13,
+    title: "CarDekho Used Car Price EDA",
+    date: "May 2025 - Jun 2025",
+    description:
+      "An end-to-end Exploratory Data Analysis project on the CarDekho dataset to identify key factors influencing used car selling prices in the Indian market. Features data preprocessing, feature engineering, and interactive Plotly dark-themed visualizations covering univariate, bivariate, and multivariate analysis.",
+    image:
+      "https://raw.githubusercontent.com/prathamesh9164/Prathamesh-Images/main/cardekho.png",
+    tags: [
+      "Python",
+      "Pandas",
+      "NumPy",
+      "Matplotlib",
+      "Seaborn",
+      "Plotly",
+    ],
+    category: "machine learning",
+    github: "https://github.com/prathamesh9164/EDA-Analysis-on-Used-Car-Dataset",
+    webapp: "",
+  },
+  {
+    id: 14,
+    title: "Bank Customer Segmentation",
+    date: "Jun 2025",
+    description:
+      "A Power BI project demonstrating customer segmentation using a bank transactions dataset. Showcases data import, cleaning, customer-level aggregation, RFM (Recency, Frequency, Monetary) segmentation, and interactive dashboards with slicers for business insights.",
+    image:
+      "https://raw.githubusercontent.com/prathamesh9164/Prathamesh-Images/main/bank_segmentation.png",
+    tags: [
+      "Power BI",
+      "Data Visualization",
+      "RFM Analysis",
+      "DAX",
+    ],
+    category: "machine learning",
+    github: "https://github.com/prathamesh9164/Bank-Customer-Segmentation",
+    webapp: "",
+  },
   {
     id: 3,
     title: "Portfolio",
