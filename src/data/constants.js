@@ -285,27 +285,7 @@ export const projects = [
     category: "web app",
     github: "https://github.com/prathamesh9164/Portfolio",
     webapp: "https://prathamesh-talele.netlify.app/",
-  },
-  {
-    id: 15,
-    title: "Stock Market Sentiment Analyzer",
-    date: "Jul 2025",
-    description:
-      "A real-time stock market sentiment analysis tool that scrapes financial news headlines and Twitter data, applies NLP-based sentiment classification using VADER and a fine-tuned DistilBERT model, and visualizes sentiment trends alongside stock price movements with interactive Plotly charts.",
-    image:
-      "https://socialify.git.ci/prathamesh9164/Stock-Market-Sentiment-Analyzer/image?description=1&font=Bitter&language=1&name=1&pattern=Circuit+Board&stargazers=1&theme=Dark&pattern=Transparent",
-    tags: [
-      "Python",
-      "NLP",
-      "DistilBERT",
-      "VADER",
-      "Plotly",
-      "Streamlit",
-    ],
-    category: "machine learning",
-    github: "https://github.com/prathamesh9164/Stock-Market-Sentiment-Analyzer",
-    webapp: "",
-  },
+  }
 ];
 
 // export const TimeLineData = [
