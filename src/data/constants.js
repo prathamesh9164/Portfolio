@@ -9,7 +9,7 @@ export const Bio = {
     "ML Engineer",
   ],
   description:
-    "I am a motivated and versatile individual, always eager to take on new challenges. With a passion for learning, I am dedicated to delivering high-quality results. With a positive attitude and a growth mindset, I am ready to make a meaningful contribution and achieve great things.",
+    "Passionate Data Science & AI enthusiast specializing in Machine Learning, NLP, and Computer Vision. I transform raw data into actionable insights through end-to-end pipelines — from scraping and EDA to model deployment. Always driven by curiosity and a growth mindset to build impactful, real-world solutions.",
   github: "https://github.com/prathamesh9164",
   resume:
     "https://drive.google.com/file/d/1enPEG0ozu-hrW3fHbUA1MaIeiTPB_LQU/view?usp=drive_link",
@@ -51,6 +51,11 @@ export const skills = [
         name: "Streamlit",
         image:
           "https://streamlit.io/images/brand/streamlit-mark-color.svg",
+      },
+      {
+        name: "TensorFlow",
+        image:
+          "https://raw.githubusercontent.com/devicons/devicon/master/icons/tensorflow/tensorflow-original.svg",
       },
     ],
   },
@@ -280,6 +285,26 @@ export const projects = [
     category: "web app",
     github: "https://github.com/prathamesh9164/Portfolio",
     webapp: "https://prathamesh-talele.netlify.app/",
+  },
+  {
+    id: 15,
+    title: "Stock Market Sentiment Analyzer",
+    date: "Jul 2025",
+    description:
+      "A real-time stock market sentiment analysis tool that scrapes financial news headlines and Twitter data, applies NLP-based sentiment classification using VADER and a fine-tuned DistilBERT model, and visualizes sentiment trends alongside stock price movements with interactive Plotly charts.",
+    image:
+      "https://socialify.git.ci/prathamesh9164/Stock-Market-Sentiment-Analyzer/image?description=1&font=Bitter&language=1&name=1&pattern=Circuit+Board&stargazers=1&theme=Dark&pattern=Transparent",
+    tags: [
+      "Python",
+      "NLP",
+      "DistilBERT",
+      "VADER",
+      "Plotly",
+      "Streamlit",
+    ],
+    category: "machine learning",
+    github: "https://github.com/prathamesh9164/Stock-Market-Sentiment-Analyzer",
+    webapp: "",
   },
 ];
 
